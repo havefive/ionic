@@ -1,0 +1,534 @@
+[33mcommit fed4fd95d2545c324c45d891b837e2bcc4ded79d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Dhineshdx <dhineshdx007@gmail.com>
+Date:   Mon Nov 13 23:32:12 2017 +0530
+
+    docs(changelog): add comma in devDependencies (#13376)
+
+[33mcommit a7ba5d66bacdcdd8b21529a317e50d36eab94526[m
+Author: Dan Bucholtz <dan.bucholtz@gmail.com>
+Date:   Wed Nov 8 13:34:19 2017 -0600
+
+    chore(changelog): 3.9.2 changelog
+
+[33mcommit c463b065c79481939de958ec6eb9c7827c62ec2f[m[33m ([m[1;33mtag: v3.9.2[m[33m)[m
+Author: Brandy Carney <brandy@ionic.io>
+Date:   Wed Nov 8 13:39:58 2017 -0500
+
+    fix(action-sheet): remove ios inertia scroll to fix flicker
+    
+    fixes #13262
+
+[33mcommit 5883da20fd82e92795a70b696113c1f833c1fc1f[m
+Author: Dan Bucholtz <dan.bucholtz@gmail.com>
+Date:   Wed Nov 8 12:33:28 2017 -0600
+
+    chore(changelog): 3.9.1 changelog improvement
+
+[33mcommit b224a65f229b39dc1c00f4f73f19b76c45688169[m
+Author: Dan Bucholtz <dan.bucholtz@gmail.com>
+Date:   Wed Nov 8 12:31:43 2017 -0600
+
+    chore(changelog): 3.9.1 changelog
+
+[33mcommit e1948be1f8e85aad9e0c5f79b046edc62bfd9142[m[33m ([m[1;33mtag: v3.9.1[m[33m)[m
+Author: Dan Bucholtz <dan.bucholtz@gmail.com>
+Date:   Wed Nov 8 12:17:15 2017 -0600
+
+    chore(changelog): 3.9.0 changelog
+
+[33mcommit 248a1cecedf4f607d467e3abff74650f9387f206[m
+Author: Brandy Carney <brandy@ionic.io>
+Date:   Wed Nov 8 12:55:05 2017 -0500
+
+    fix(datetime): avoid adding cancel and done button repeatedly
+    
+    references #7333
+
+[33mcommit 75cf887f912ec2579dec91e0f715f585805f608e[m[33m ([m[1;33mtag: v3.9.0[m[33m)[m
+Author: Dan Bucholtz <dan.bucholtz@gmail.com>
+Date:   Tue Nov 7 15:11:33 2017 -0600
+
+    refactor(input): revert input/highlight height change that broke snpashot
+
+[33mcommit 32c5bed5460823a6336a8b25cb62a73de80d79f3[m
+Author: Dan Bucholtz <dan.bucholtz@gmail.com>
+Date:   Mon Nov 6 14:58:45 2017 -0600
+
+    chore(dependencies): revert to ng4 for distribution for now
+
+[33mcommit 4f3e91bdfa27c6d7922f94616a799510844fea49[m
+Author: Brandy Carney <brandy@ionic.io>
+Date:   Tue Nov 7 16:05:03 2017 -0500
+
+    fix(action-sheet): move box-shadow to first group
+
+[33mcommit 236e7f8393429e8dc439575d13a81f696017710c[m
+Author: mhartington <mikehartington@gmail.com>
+Date:   Tue Nov 7 10:34:37 2017 -0500
+
+    fix(tabs): no safe area padding for top tabs
+
+[33mcommit ea710044eff6e3c02ca0fc9aa4c3fbf2653031e5[m
+Author: Daniel Sogl <daniel@sogls.de>
+Date:   Mon Nov 6 21:50:33 2017 +0100
+
+    chore(dependencies): update rxjs to 5.5.x
+    
+    * chore(package): bump rxjs to 5.5
+    
+    * Update package.json
+    
+    * Update package.json
+
+[33mcommit efd6605f98d6f86e0f7ef8f5a46a26de0e5b36c9[m
+Author: Daniel Sogl <daniel@sogls.de>
+Date:   Mon Nov 6 21:46:52 2017 +0100
+
+    refactor(templates): HttpClient (#13067)
+
+[33mcommit aaa3cac917eef1f6a3f24516c47933d6fa734600[m
+Author: Daniel Sogl <daniel@sogls.de>
+Date:   Mon Nov 6 21:46:02 2017 +0100
+
+    refactor(slider-test): HttpClient (#13068)
+
+[33mcommit 4cc54eeb5df86402339106667fbb294200d61be0[m
+Author: Dan Bucholtz <dan.bucholtz@gmail.com>
+Date:   Mon Nov 6 14:37:03 2017 -0600
+
+    chore(build): remove angular, rxjs, and zone peer deps
+
+[33mcommit cfdba887543fde3d51df1d5dd4c88ee8193d6e55[m
+Author: Dan Bucholtz <dan.bucholtz@gmail.com>
+Date:   Mon Nov 6 14:21:44 2017 -0600
+
+    chore(build): pass param to app-scripts to avoid reading ionic-angular version info within the context of the ionic repo
+
+[33mcommit 7c583938a241d5777d3435c8f2989448a4590e3a[m
+Author: Dan Bucholtz <dan.bucholtz@gmail.com>
+Date:   Mon Nov 6 12:41:18 2017 -0600
+
+    feature(dependencies): updates to support angular 5
+    
+    * chore(dependencies): update to ng5 rc
+    
+    * chore(dependencies): update for ng 5
+    
+    * chore(build): remove closure support
+    
+    * chore(dependencies): fix missing angular/common value
+
+[33mcommit d659676ba2e1e87121045131f14724f746a0277c[m
+Author: Perry Govier <perrygovier@users.noreply.github.com>
+Date:   Thu Nov 2 09:55:24 2017 -0500
+
+    chore(CI): ignore CI builds on core for now
+
+[33mcommit e555eae1f5f72c88b47f116cbe41e54e6f920d8a[m
+Author: Iason Asimakopoulos <kaiseroskilo@gmail.com>
+Date:   Fri Oct 27 22:48:26 2017 +0300
+
+    fix(alert): focus input after it is ready (#13259)
+    
+    Fixes: #12784
+
+[33mcommit 5742540a3687675a5418c56f843714dc659edfc7[m
+Author: Jérémy LE TRIONNAIRE <jeremy.letrionnaire@soprasteria.com>
+Date:   Fri Oct 27 20:17:23 2017 +0200
+
+    fix(tap-click): clear activated state on activable element when appropriate (#13258)
+    
+    Fixes #13044
+
+[33mcommit 6978bb551f87d63543a4d442687c15280cc74123[m
+Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+Date:   Fri Oct 27 18:41:00 2017 +0300
+
+    fix(VirtualScroll): stop from resizing while out of view (#13143)
+
+[33mcommit e7ac15f9beb95255480204b69f2066906c3f5b21[m
+Author: Manu MA <manu.valladolid@gmail.com>
+Date:   Fri Oct 27 17:40:10 2017 +0200
+
+    fix(input): better support for WKKeyboard (#13106)
+
+[33mcommit 2ab8385ee04b45d3969e4b76455a39981ff8da9a[m
+Author: Brandy Carney <brandyscarney@users.noreply.github.com>
+Date:   Fri Oct 27 11:39:24 2017 -0400
+
+    fix(datetime): use spread operator to copy pickerOptions (#13202)
+    
+    * fix(datetime): use spread operator to copy pickerOptions to keep functions
+    
+    * style(datetime): fix typo in comment
+    
+    fixes #11641
+
+[33mcommit 616786b387f01bd7e9ecaeaef84c0586a36dc9d2[m
+Author: Ken Sodemann <ken@ionic.io>
+Date:   Fri Oct 27 06:06:24 2017 -0500
+
+    chore(): fix spelling fail
+
+[33mcommit 6b5f9f113f636309781f48779b81872f44c487db[m
+Author: Ken Sodemann <ken@ionic.io>
+Date:   Fri Oct 27 06:03:38 2017 -0500
+
+    chore(): minor changeling tweak
+
+[33mcommit 2bba548253a6252d1b4142f1602c103aded49f99[m
+Author: Ken Sodemann <ken@ionic.io>
+Date:   Fri Oct 27 06:02:49 2017 -0500
+
+    chore(): add dependency change info to 3.8.0 upgrade instruction
+
+[33mcommit 1497d83a0e06056885b0d67e7d3e8d0a39dfd137[m
+Author: mhartington <mikehartington@gmail.com>
+Date:   Thu Oct 26 14:02:12 2017 -0700
+
+    style(lint): fix lint error
+
+[33mcommit 7f7f60ede59b786b6488d19338d6cd913d88b68b[m
+Author: mhartington <mikehartington@gmail.com>
+Date:   Thu Oct 26 13:43:06 2017 -0700
+
+    chore(): bump
+
+[33mcommit 73f6a8244613a24579c87bac80e5e32a1b0ba107[m[33m ([m[1;33mtag: v3.8.0[m[33m)[m
+Author: mhartington <mikehartington@gmail.com>
+Date:   Thu Oct 26 09:05:02 2017 -0700
+
+    fix(popover): improve positioning in ios11
+
+[33mcommit 893ef725e958ed38ea38d5c0b8d6935a3b1ad505[m
+Author: Dan Bucholtz <dan.bucholtz@gmail.com>
+Date:   Mon Oct 23 23:18:22 2017 -0500
+
+    refactor(navigation): revert hacky change in url-serializer to account for scenario when toggling between one two views each with a set of tabs
+
+[33mcommit 4ea843440bc479f00529c4695930ce69af346ef0[m
+Author: mhartington <mikehartington@gmail.com>
+Date:   Sun Oct 22 19:41:25 2017 -0700
+
+    fix(): correct order of events
+
+[33mcommit f2946e77e674f97cb6d6bcbc369ac878d01b4c95[m
+Author: mhartington <mikehartington@gmail.com>
+Date:   Fri Oct 20 20:32:27 2017 -0400
+
+    fix(): correct event name
+
+[33mcommit ebdf22d2d3cda910b297bf1fec49783f77e70e83[m
+Author: mhartington <mikehartington@gmail.com>
+Date:   Fri Oct 20 15:56:19 2017 -0400
+
+    fix(): move resize logic to viewCtrl
+
+[33mcommit dd66f9a7a9478bf40907eb94515efc28d13371d4[m
+Author: Jérémy LE TRIONNAIRE <jeremy.letrionnaire@soprasteria.com>
+Date:   Fri Oct 20 21:14:06 2017 +0200
+
+    fix(swiper): allow for multiple swipers on a page (#12213)
+    
+    fixes #12008
+
+[33mcommit 6b848a04b38d66ae37b9724735b37d88d65c93db[m
+Author: mhartington <mikehartington@gmail.com>
+Date:   Thu Oct 19 17:54:05 2017 -0400
+
+    fix(content): reize on orientationchange only
+    Ref #13028
+
+[33mcommit af363581da1a7e1ce884a78d50637e9e736b478e[m
+Author: mhartington <mikehartington@gmail.com>
+Date:   Thu Oct 19 15:17:19 2017 -0400
+
+    fix(item): safe-padding on last item only
+
+[33mcommit 33960f1a5a98fc49525cfccc85f0847bf3a02de5[m
+Author: mhartington <mikehartington@gmail.com>
+Date:   Tue Oct 17 09:49:45 2017 -0400
+
+    fix(cordova): size footer correctly
+    Ref #13054
+
+[33mcommit e5df0625b2ffec2d6f2ca6d882e7fad1a8e1b5eb[m
+Author: Valentin <valentblanchard@gmail.com>
+Date:   Mon Oct 16 12:25:33 2017 +0200
+
+    docs(nav-controller): change leave to enter matching guard name (#13155)
+    
+    Update comment in Nav Guards when pushing new view.
+    Comment was the same as leaving a view. 'leave' to 'enter'. Correct ?
+
+[33mcommit 22747e35881f979164c7eb4b613ba929d19c8275[m
+Author: Zach Lawson <zachary.lawson@getyardstick.com>
+Date:   Wed Oct 11 12:28:17 2017 -0600
+
+    docs(slides): fix typo in code sample (#13091)
+
+[33mcommit dc280b4199e37d05eb89f71a79d28cae1e8ec3ba[m
+Author: Ken Sodemann <ken@ionic.io>
+Date:   Wed Oct 11 12:40:42 2017 -0500
+
+    chore(): clean up the issue template
+
+[33mcommit fae5365b1204bd1f5f73d1a116896f66341d6a59[m
+Author: Dan Bucholtz <dan.bucholtz@gmail.com>
+Date:   Tue Oct 10 15:57:16 2017 -0500
+
+    refactor(tabs): remove unnecessary console.log
+
+[33mcommit ecde0ae70fbec51fde753ab98aff876e57409bd3[m
+Merge: 356240883 c8be8e254
+Author: Max Lynch <max@drifty.com>
+Date:   Tue Oct 10 10:53:40 2017 -0500
+
+    Merge pull request #13104 from ionic-team/fix/11694
+    
+    fix(tabs): emit viewDidEnter and viewDidLeave on app during tab change. ≈
+
+[33mcommit c8be8e254cb0bc90c956323b6ff53fb23093cc00[m
+Author: Max Lynch <max@drifty.com>
+Date:   Tue Oct 10 10:49:58 2017 -0500
+
+    fix(tabs): emit viewDidEnter and viewDidLeave on app during tab change
+
+[33mcommit 356240883eaa223d2497f869e6f27d8bc06710d7[m
+Author: Dan Bucholtz <dan.bucholtz@gmail.com>
+Date:   Tue Oct 10 10:34:36 2017 -0500
+
+    chore(dependencies): lock file update
+
+[33mcommit c4e9b5d343e31b83a0a7ee1563025e9c508b554a[m
+Author: Max Lynch <max@drifty.com>
+Date:   Tue Oct 10 09:35:13 2017 -0500
+
+    fix(select): overlay types should use shared interface
+    Closes #13103
+
+[33mcommit 9f17b388d21e045f4cf2a866521bb8be10e3d137[m
+Author: Dan Bucholtz <dan.bucholtz@gmail.com>
+Date:   Tue Oct 10 09:24:47 2017 -0500
+
+    chore(dependencies): update lock file
+
+[33mcommit 49e0c3701ab952cb0463fe2b4294599adfc0a2ad[m
+Author: Mike Hartington <mhartington@users.noreply.github.com>
+Date:   Mon Oct 9 16:52:13 2017 -0400
+
+    feat(): better ios11 support
+    
+    * style(): better list design for ios
+    
+    * fix(): fix lint issues
+    
+    * fix(): more ios11 updates
+    
+    * fix(): use env and constant for now
+    
+    * fix(footer): user correct value for padding
+    
+    * fix(): remove extra padding on title
+    
+    * fix(): reorder imports to pass lint
+
+[33mcommit ee766e1de8c472a5af9791f055b5fbfdeb06da89[m
+Author: Ken Sodemann <ken@ionic.io>
+Date:   Fri Oct 6 14:46:47 2017 -0500
+
+    doc(defaultHistory): clarify the use of defaultHistory
+
+[33mcommit 74c5871ac451461d3abc93bf927dbacaa21a392a[m
+Author: Daniel Sogl <daniel@sogls.de>
+Date:   Fri Oct 6 20:01:37 2017 +0100
+
+    refactor(OpaqueToken): change deprecated import (#11916)
+    
+    * refactor(OpaqueToken): ready for Angular 4.2
+    
+    * Create app-root.ts
+    
+    * Create config.ts
+    
+    * Create url-serializer.ts
+    
+    * Create platform-registry.ts
+    
+    * Create module-loader.ts
+
+[33mcommit 8ec70ee02afdca32d9b803670bf47ac929331a52[m
+Author: Daniel Sogl <daniel@sogls.de>
+Date:   Fri Oct 6 19:54:38 2017 +0100
+
+    chore(dependencies): bump Angular and TypeScript(#13030)
+
+[33mcommit ae4be669bb96de01ff2224ff36da89e9cde12c7f[m
+Author: Manu Mtz.-Almeida <manu.mtza@gmail.com>
+Date:   Fri Oct 6 12:41:50 2017 +0200
+
+    fix(nav): remove bad assert
+
+[33mcommit c91223bfb2b180ce68576b135a87956881bfeba6[m
+Author: Manu MA <manu.valladolid@gmail.com>
+Date:   Fri Oct 6 12:39:33 2017 +0200
+
+    fix(overlay): onWillDismiss is called as expected (#12056)
+    
+    * fix(overlay): onWillDismiss is called as expected
+    
+    fixes #11702
+    
+    * Fix condition
+
+[33mcommit b1803510e32eff112ee94c3292d06377f74e4d89[m
+Author: Amit Moryossef <amitmoryossef@gmail.com>
+Date:   Fri Oct 6 13:28:40 2017 +0300
+
+    feat(input): add dir attribute for different language directions (#13043)
+
+[33mcommit 70809caa8d319075b79307df2db85f6e1baae27f[m
+Author: Manu Mtz.-Almeida <manu.mtza@gmail.com>
+Date:   Fri Oct 6 12:13:28 2017 +0200
+
+    test(virtual-scroll): update tests
+
+[33mcommit 88b2e8316dad5c504695405fa2199aacbea5b5d6[m
+Author: Manu Mtz.-Almeida <manu.mtza@gmail.com>
+Date:   Fri Oct 6 12:12:01 2017 +0200
+
+    fix(virtual-scroll): flickering issue fixes
+    
+    Squashed commit of the following:
+    
+    commit 3497d401ba0a971d07163172018e7d24c305dc94
+    Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+    Date:   Wed Sep 20 10:52:39 2017 +0300
+    
+        Fix virtualScroll spec
+    
+    commit c6a2a978a5d6de6eeb8ba846f9d9047e9a5cf30b
+    Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+    Date:   Wed Sep 20 10:51:58 2017 +0300
+    
+        Fix virtualScroll e2e infiniteScroll test
+    
+    commit 6eaf7d1e2b7e4ca2180aedb8161a2036b5fa9f60
+    Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+    Date:   Wed Sep 20 09:40:01 2017 +0300
+    
+        Use const enums to reduce generated code
+    
+    commit 564ef4179f81703f86d75dfa6b4b52f0cc816e34
+    Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+    Date:   Tue Sep 19 16:12:01 2017 +0300
+    
+        Recalculated nodes once more on scrollEnd
+    
+    commit bfa44b9dc43c32f00692080a1d752883cc1993f4
+    Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+    Date:   Mon Sep 18 19:10:55 2017 +0300
+    
+        Remove needClean param from populateNodeData
+    
+    commit 84d402d05d9c973cf3607116bfccacff074ea510
+    Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+    Date:   Mon Sep 18 19:06:06 2017 +0300
+    
+        Remove console.warn
+    
+    commit 07e15d7074fe825e2d7273ea9f5de2805e130d93
+    Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+    Date:   Mon Sep 18 17:50:14 2017 +0300
+    
+        Simplify adjustRendered function
+    
+    commit 9b3b0db0866e76ae8a1b146f47e82957b48d51a1
+    Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+    Date:   Mon Sep 18 17:14:39 2017 +0300
+    
+        Use recordSize consistently
+    
+    commit c8d5e09bd2fe2ae25f68bd9eb9ecdf445ceba72f
+    Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+    Date:   Mon Sep 18 16:27:09 2017 +0300
+    
+        Fix top and bottom cells special cases
+    
+    commit acec8eff5da45df10902355cdb835d40b4cd72ca
+    Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+    Date:   Mon Sep 18 13:26:33 2017 +0300
+    
+        Update existing nodes by matching cells
+    
+    commit 8590b9b5d48ef3402d1fc8f101b207dabb23ae6f
+    Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+    Date:   Mon Sep 18 13:25:00 2017 +0300
+    
+        Stop clearing DOM in slow path
+    
+    commit e06d757471308b6c7a77c3a2db63b4e2c9711400
+    Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+    Date:   Fri Sep 15 17:20:18 2017 +0300
+    
+        Return records from VirtualScroll getter
+    
+    commit a13184f9b37b9735d94aa3e79c15ff36ade507eb
+    Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+    Date:   Fri Sep 15 15:12:31 2017 +0300
+    
+        Change comment
+    
+    commit 75aed51b92c56c15a30965ee1e7c543608d8cd5c
+    Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+    Date:   Fri Sep 15 15:01:17 2017 +0300
+    
+        Stop looking for available nodes after one is found
+    
+    commit ebef282654adfac01a6b254b6a394607517cad0e
+    Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+    Date:   Fri Sep 15 14:49:36 2017 +0300
+    
+        Change TemplateType consts to enum
+    
+    commit 21a7ce9cde8c7aefe28b8e882b8d7e92e5cb8d95
+    Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+    Date:   Fri Sep 15 14:45:47 2017 +0300
+    
+        Stop searching nodes if cell is already rendered
+    
+    commit 7d3b7c4a1b1e64ffdc7a705ec8069ac2c88edb00
+    Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+    Date:   Fri Sep 15 14:36:11 2017 +0300
+    
+        Make debug logs consistent
+    
+    commit a716e5814ed90ca537cc311547f769f9b834a96f
+    Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+    Date:   Fri Sep 15 14:33:29 2017 +0300
+    
+        Simplify changes calculation
+    
+    commit ad9c6d9b3759d67726e8f1231a85b10eb1cb0421
+    Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+    Date:   Fri Sep 15 14:22:41 2017 +0300
+    
+        Simplify addCell function
+    
+    commit 8e5774a027525735c7dfec14703c4cb17cb3ccba
+    Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+    Date:   Fri Sep 15 14:17:03 2017 +0300
+    
+        Throw errors not strings
+    
+    commit fdd9bd19ad05429b6d760386eaf86c75792ca0ad
+    Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+    Date:   Fri Sep 15 14:12:39 2017 +0300
+    
+        Initialize differ with trackByFunction as ngForOf does
+    
+    commit 4cf1f3918e2af9f137f5d06463ba1d5b6bda625b
+    Author: Michael Asimakopoulos <m.asimakopoulos@gmail.com>
+    Date:   Fri Sep 15 14:08:11 2017 +0300
+    
+        Convert queue consts to enum

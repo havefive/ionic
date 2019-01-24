@@ -14,10 +14,15 @@ log.txt
 .sass-cache/
 .versions/
 coverage/
+collection/
 dist/
 node_modules/
 tmp/
 temp/
+core/theme-builder/
+core/test-components/
+core/css/
+angular/css/
 $RECYCLE.BIN/
 
 .DS_Store
@@ -32,6 +37,8 @@ scripts/e2e/webpackEntryPoints.json
 scripts/build/e2e-generated-tsconfig.json
 *.css.ts
 
+stats.json
+
 # demo stuff
 demos/node_modules
 demos/polyfills
@@ -43,3 +50,10 @@ demos/src/**/*.ngfactory.ts
 demos/src/**/*.d.ts
 demos/src/**/*.metadata.json
 demos/src/**/*.css.shim.ts
+
+# stencil
+angular/css/
+core/css/
+core/loader/
+.stencil/
+angular/build/
